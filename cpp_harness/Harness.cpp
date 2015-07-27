@@ -41,6 +41,7 @@ int main(int argc, char *argv[])
 	gtc = new GlobalTestConfig();
 
 	gtc->addRideableOption(new SGLQueueFactory(), "SGLQueue (default)");
+	gtc->addRideableOption(new BlockPoolFactory<int>(), "Block Pool Allocator");
 
 	gtc->addTestOption(new InsertRemoveTest(), "InsertRemove Test");
 	gtc->addTestOption(new NearEmptyTest(), "NearEmpty Test");

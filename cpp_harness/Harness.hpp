@@ -34,5 +34,6 @@ limitations under the License.
 #include "RContainer.hpp"
 #include "RMap.hpp"
 #include "HazardTracker.hpp"
+#include "BlockPool.hpp"
 
 #endif
